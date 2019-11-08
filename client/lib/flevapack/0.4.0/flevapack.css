@@ -11,6 +11,7 @@
     background: green;
     border-radius: var(--game-panel-border-top) var(--game-panel-border-top) var(--game-panel-border-bottom) var(--game-panel-border-bottom);
 }
+
 .gamePanel *, .gamePanel *::before, .gamePanel *::after {
     box-sizing: border-box;
 }
