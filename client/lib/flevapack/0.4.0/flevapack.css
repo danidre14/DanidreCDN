@@ -3,7 +3,6 @@
     --game-panel-border-top: 2rem;
     --game-panel-border-bottom: .8rem;
 }
-
 .gamePanel {
     margin-bottom: var(--game-panel-spacing);
     padding: var(--game-panel-spacing);
@@ -11,20 +10,16 @@
     background: green;
     border-radius: var(--game-panel-border-top) var(--game-panel-border-top) var(--game-panel-border-bottom) var(--game-panel-border-bottom);
 }
-
 .gamePanel *, .gamePanel *::before, .gamePanel *::after {
     box-sizing: border-box;
 }
-
 .gameName {
     font: inherit;
     color: inherit;
 }
-
 .gameObjectSelection::selection {
     background-color:rgba(0, 0, 0, 0);
 }
-
 .gameCanvasDiv {
     box-sizing: content-box;
     display: block;
@@ -34,11 +29,9 @@
     top: 0;
     left: 0;
 }
-
 .gameCanvasDiv:fullscreen {
     border: none;
 }
-
 .gamePanelButtonsDiv {
     display: flex;
     
